@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - MISBA | UMD</title>
+    <meta name="description" content="View upcoming events, workshops, and networking sessions hosted by MISBA.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="nav-logo">MISBA</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="executive-board.html">Executive Board</a></li>
+                <li><a href="project-showcase.html">Project Showcase / Past Events</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+            <a href="upcoming-events.html" class="btn btn-primary nav-cta">Upcoming Events</a>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1>Upcoming Events</h1>
+            <p>Join us for our upcoming workshops, guest speakers, and networking sessions. Don't forget to RSVP!</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="container" style="padding: 4rem 2rem;">
+            <!-- Dynamic Events Container -->
+            <div id="events-container" class="grid">
+                <!-- Events will be rendered here by events.js -->
+            </div>
+            
+            <div style="text-align: center; margin-top: 4rem;">
+                <p>Not seeing what you're looking for?</p>
+                <a href="join.html" class="btn btn-secondary" style="margin-top: 1rem;">Sign up for our Newsletter</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <h3>MISBA</h3>
+                <p>Management Information Systems Business Association</p>
+                <p>University of Minnesota Duluth</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="executive-board.html">Executive Board</a></li>
+                    <li><a href="project-showcase.html">Project Showcase / Past Events</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="LinkedIn">In</a>
+                    <a href="#" aria-label="Instagram">IG</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p style="font-size: 0.85rem; margin-bottom: 1rem; font-style: italic; max-width: 800px; margin-left: auto; margin-right: auto; line-height: 1.4;">* In accordance with University of Minnesota Policy, all students are welcome to join and participate in this group's activities as members or supporters, regardless of identity *</p>
+            <p>&copy; 2026 MISBA UMD. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/events.js"></script>
+</body>
+</html>
